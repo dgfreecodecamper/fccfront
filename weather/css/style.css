@@ -1,0 +1,161 @@
+/*
+background images for 
+
+1. clear sky
+https://images.unsplash.com/reserve/GBjvTQTou2D0KTHomMoA_IMG_1568.JPG
+2. few clouds
+https://images.unsplash.com/photo-1430778569142-43551f375f9a
+3. scattered clouds
+https://images.unsplash.com/photo-1431315906474-0e7a186c0304
+4. broken clouds
+https://images.unsplash.com/photo-1430089430181-74b60db38d4f
+5. shower rain
+https://images.unsplash.com/photo-1444384851176-6e23071c6127
+6. rain
+https://images.unsplash.com/reserve/5ByY2laAQiCAZ1fCdnoz_untitled-1528-2.jpg
+7. thunderstorm
+https://images.unsplash.com/photo-1442213391790-7656f6e368b9
+8. snow
+https://images.unsplash.com/photo-1454447170982-596ddff4606a
+9. mist
+https://images.unsplash.com/photo-1445294211564-3ca59d999abd
+
+*/
+
+html,
+body {
+  color: #777;
+  background: #fff;
+}
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  /*   background-image: url(https://images.unsplash.com/photo-1442213391790-7656f6e368b9); */
+  /*   background-size: 200px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 30px;
+/*   color: #006600; */
+  /*   background-color: #b3b3ff; */
+  text-align: center;
+  margin: 90px 0px 10px 0px;
+}
+
+h2 {
+  font-size: 20px;
+/*   color: #006600; */
+  /*   background-color: #b3b3ff; */
+  text-align: center;
+  margin: 0px 50px 20px 50px;
+}
+
+p {
+  clear: left;
+  padding-top: 30px;
+}
+
+form {
+  text-align: center;
+  margin: 0px auto 20px auto;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /*   background-color: #cccccc */
+}
+
+.panelcontainer {
+  width: 100%;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+.panel1 {
+  width: 150px;
+  height: 150px;
+  margin: 0px 0px 0px 50px;
+  padding: 20px;
+  float: left;
+  border: 0px solid red;
+  border-radius: 10px;
+  /*   background-color: #b3b3ff; */
+  background: rgba(54, 25, 195, .15);
+  /*   background-image: url(http://static.dezeen.com/uploads/2013/04/dezeen_Grimshaw-submits-plans-for-Australian-skyscraper_1a.jpg); */
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.panel2 {
+  width: 150px;
+  height: 250px;
+  margin: 0px 0px 60px 62px;
+  padding: 20px;
+  float: left;
+  border: 0px solid red;
+  border-radius: 10px;
+  /*   background-color: #b3b3ff; */
+  background: rgba(54, 25, 195, .15);
+  /*   background-image: url(http://static.dezeen.com/uploads/2013/04/dezeen_Grimshaw-submits-plans-for-Australian-skyscraper_1a.jpg); */
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.panel3 {
+  width: 150px;
+  height: 150px;
+  margin: 0px 0px 0px 62px;
+  padding: 20px;
+  float: left;
+  border: 0px solid red;
+  border-radius: 10px;
+  /*   background-color: #b3b3ff; */
+  background: rgba(54, 25, 195, .15);
+  /*   background-image: url(http://static.dezeen.com/uploads/2013/04/dezeen_Grimshaw-submits-plans-for-Australian-skyscraper_1a.jpg); */
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.panel4 {
+  width: 400px;
+  height: 300px;
+  margin: 0px auto 30px auto;
+/*   padding: 50px 0px; */
+/*   background-color: red; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  clear: both;
+}
+
+.icon {
+  width: 6em;
+}
+
+.subtit {
+  font-size: 1.8em;
+  margin: 0px 0px 40px 0px;
+/*   background-color: red; */
+  line-height: 2em;
+/*   color: #fff; */
+/*   font-weight: bold; */
+}
+
+.btn {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: 20px 10px 20px 10px;
+}

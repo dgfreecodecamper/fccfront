@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>The weather where you are...</h1>
+    <h2 class="name"></h2>
+    <form id="locForm">
+      <input type="radio" name="radioName" value="home" checked/> Your Location
+      <input type="radio" name="radioName" value="london" /> London
+      <input type="radio" name="radioName" value="sydney" /> Sydney
+      <input type="radio" name="radioName" value="la" /> L.A.
+    </form>
+    <div class="panelcontainer">
+
+      <div class="panel1">
+        <span class="main subtit"></span><br /> Clouds: <span class="clouds"></span><br /> Humidity: <span class="humidity"></span><br /> Pressure: <span class="pressure"></span>
+      </div>
+
+      <div class="panel2">
+        <span class="subtit">Temperature </span><br />
+        <span class="temperature"></span><br />
+        <img class="icon" src="http://openweathermap.org/img/w/10d.png" alt="" /><br />
+        <span class="description"></span><br /><br />
+        <button id="tempBtn" class="btn">Deg F</button>
+      </div>
+
+      <div class="panel3">
+        <span class="subtit">Wind </span><br /> Speed: <span class="windspeed"></span><br /> Direction: <span class="winddir"></span>
+      </div>
+
+      <div class="panel4">
+      </div>
+
+      <div class="panel5">
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--   <p>
+    <ul>
+      <li>Temperature: <span class="temperature"></span></li>
+      <li>Clouds: <span class="clouds"></span></li>
+      <li>Humidity: <span class="humidity"></span></li>
+      <li>Pressure: <span class="pressure"></span></li>
+      <li>Wind Direction: <span class="winddir"></span></li>
+      <li>Wind Speed: <span class="windspeed"></span></li>
+      <li>Description1: <span class="main"></span></li>
+      <li>Description2: <span class="description"></span></li>
+      <li>Icon: <img class="icon" src="http://openweathermap.org/img/w/10d.png" alt="" /></li>
+
+    </ul>
+  </p> -->
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
