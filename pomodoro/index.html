@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>FeeCodeCamp - Pomodoro Timer</h1>
+    </div>
+
+    <div class="control control1">
+      <h1>Session length</h1>
+      <p><button id="session-btn-neg">-</button> <span id="session-text"></span> <button id="session-btn-pos">+</button></p>
+    </div>
+    <div class="control control2">
+      <h1>Break length</h1>
+      <p><button id="break-btn-neg">-</button> <span id="break-text"></span> <button id="break-btn-pos">+</button></p>
+    </div>
+
+    <div class="timer-container">
+      <svg class="timersvg" width="360" height="360">
+      <circle cx="180" cy="180" r="157" stroke="#99cc00" stroke-width="3" fill="red" fill-opacity="0" />
+      <path id="timer-fill" d="M 180 330 a 150 150 0 0 0 0 0" fill="#B32323" />
+    </svg>
+    </div>
+
+    <div class="timer-txt">
+      <h1><span id="main-text">Session</span></h1><br /><br />
+      <h1><span id="timer-text"></span></h1>
+    </div>
+
+    <div class="footer">
+      <p>page design <br />by <br /> 'DgFreeCodeCamper'</p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
