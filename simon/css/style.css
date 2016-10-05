@@ -1,0 +1,236 @@
+/* * {
+  font-family: 'Alfa Slab One', cursive;
+} */
+
+.bluequad {
+  width: 288px;
+  height: 288px;
+  background-color: #094A8F;
+  border-bottom-right-radius: 100%;
+  position: absolute;
+  top: 304px;
+  left: 304px;
+  z-index: 20;
+}
+.bluequadon{
+  background-color: #1c8cff;
+}
+
+.controlcircle {
+  width: 300px;
+  height: 300px;
+  background-color: #D1D1D1;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 142px;
+  left: 142px;
+  z-index: 30;
+}
+
+.count {
+  width: 90px;
+  height: 50px;
+  background-color: #5E101C;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 2px;
+  border-radius: 10px;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+
+
+.count p {
+  font-family: 'VT323';
+  font-size: 320%;
+  color: #F88F9E;
+  position: absolute;
+  top: -53px;
+  left: 24px;
+}
+
+.countlabel p {
+  font-family: 'oswald';
+  font-size: 100%;
+  color: #333333;
+  position: absolute;
+  top: 45px;
+}
+
+.error {
+  background-color: red;
+}
+
+.greenquad {
+  width: 288px;
+  height: 288px;
+  background-color: #00A74A;
+  border-top-left-radius: 100%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 20;
+}
+.greenquadon {
+  background-color: #13ff7c;
+}
+
+.heading {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 335%;
+  color: #333333;
+  position: absolute;
+  top: -20px;
+  left: 45px;
+}
+
+.onoff {
+  width: 50px;
+  height: 25px;
+  background-color: #333333;
+  position: absolute;
+  top: 230px;
+  left: 125px;
+  cursor: pointer;
+}
+
+.onoffbtn {
+  width: 21px;
+  height: 21px;
+  background-color: blue;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  /*change to 25 for on position*/
+}
+.onbtn{
+  left: 25px;
+}
+
+.offlabel p {
+  position: absolute;
+  top: -12px;
+  left: -40px;
+}
+
+.onlabel p {
+  position: absolute;
+  top: -12px;
+  left: 60px;
+}
+
+.outercircle {
+  width: 600px;
+  height: 600px;
+  background-color: #333333;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.redquad {
+  width: 288px;
+  height: 288px;
+  background-color: #9F0F17;
+  border-top-right-radius: 100%;
+  position: absolute;
+  top: 8px;
+  left: 304px;
+  z-index: 20;
+}
+.redquadon {
+  background-color: #ff4c4c;
+}
+
+.small {
+  font-size: 50%;
+  position: relative;
+  top: -20px;
+}
+
+.start {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  cursor: pointer;
+}
+
+.startlabel p {
+  font-family: 'oswald';
+  font-size: 100%;
+  color: #333333;
+  position: absolute;
+  top: 33px;
+  left: -10px;
+}
+
+.strict {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 210px;
+  cursor: pointer;
+}
+
+.strictlabel p {
+  font-family: 'oswald';
+  font-size: 100%;
+  color: #333333;
+  position: absolute;
+  top: 33px;
+  left: -10px;
+}
+.strictlight{
+  height:10px;
+  width:10px;
+  background-color: #333333;
+  border-radius:50%;
+  position: absolute;
+  top:-20px;
+  left:10px;
+}
+.strictlighton{
+  background-color:red;
+}
+
+.win {
+  background-color: green;
+}
+
+
+.yellowquad {
+  width: 288px;
+  height: 288px;
+  background-color: #CCA707;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  top: 304px;
+  left: 8px;
+  z-index: 20;
+}
+.yellowquadon{
+  background-color: #fed93f;
+}
