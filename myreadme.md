@@ -29,3 +29,11 @@ git push origin gh-pages // commit the changes
 git checkout master // return to the master branch 
 
 ```
+
+# To create a branch for the site 
+
+```javascript
+git branch gh-pages
+
+
+```
