@@ -1,41 +1,74 @@
 body {
-  background-color:#993399;
+  background-color: #993399;
 }
+
 .heading {
   font-size: 40px;
   font-style: italic;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 200px;
   margin-bottom: 30px;
   color: #f5f5f5;
 }
-.quote {
-  color: black;
-  font-size: 10px;
-  font-style: italic;
-  text-align: center;
-  padding: 40px;
+
+.well {
+  width: 100%;
+  height: 250px;
+  position: relative;
 }
-.quoteinfo .author {
-  color: black;
-  font-size: 14px;
-  font-style: italic;
-  text-align: right;
-  float: right;
-  padding-bottom: 15px;
-}
-#quotebtn {
-  background-color: red;
-  border-color: red;
-  float: right;
-}
-#twitterbtn {
-  background-color: red;
-  border-color: red;
-}
-.pageby {
+
+#pageby {
   font-size: 12px;
   font-style: italic;
   text-align: center;
-  padding-top: 20px;
+  margin-top: 50px;
+}
+
+#icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #993399;
+}
+
+#icon-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #993399;
+}
+
+#quote {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  color: #993399;
+  font-size: 20px;
+}
+
+#author {
+  position: absolute;
+  top: 170px;
+  right: 30px;
+  color: #993399;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#twitterbtn {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  background-color: #993399;
+  color: #fff;
+  border: 0px;
+}
+
+#quotebtn {
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  background-color: #993399;
+  color: #fff;
 }

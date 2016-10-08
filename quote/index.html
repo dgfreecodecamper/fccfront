@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
@@ -10,36 +10,30 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-
       <div class="col-sm-3"></div>
 
       <div class="col-sm-6">
-
-
         <h1 class="heading">The sayings of the wise</h1>
+
         <div class="well">
           <div class="quoteinfo">
-            <span class="icon"><i class="fa fa-quote-left"></i></span>
-            <span class="quote">"Life is hard and then you die"</span><br>
-            <span class="author">David Glenn</span>
+            <span id="icon-left"><i class="fa fa-quote-left"></i></span>
+            <p id="quote">Never think that you need to protect God. Because anytime you think you need to protect God, you can be sure that you are worshipping an idol.</p>
+            <span id="icon-right"><i class="fa fa-quote-right"></i></span>
+            <span id="author">Stanley Hauerwas</span>
           </div>
-          <div>
-            <button id="twitterbtn" class="btn btn-success"><i class="fa fa-twitter"></i></button>
-            <button id="quotebtn" class="btn">New Quote</button>
-          </div>
+          <a id="tweet" href="http://twitter.com" target="_blank"><button id="twitterbtn" class="btn btn-success"><i class="fa fa-twitter"></i></button></a>
+          <button id="quotebtn" class="btn">New Quote</button>
         </div>
 
-
-        <p class="pageby">Page design by dgfreecodecamper</p>
+        <p id="pageby">Page design by dgfreecodecamper</p>
       </div>
-
 
       <div class="col-sm-3"></div>
     </div>
   </div>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 
 </html>
