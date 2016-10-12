@@ -9,12 +9,12 @@ $(document).ready(function() {
 });
 
 var getChannelInfo = function(name) {
-  $.getJSON('https://api.twitch.tv/kraken/channels/' + name + '?callback=?', function(generalData) {
-    $.getJSON('https://api.twitch.tv/kraken/streams/' + name + '?callback=?', function(streamData) {
+  $.getJSON('https://api.twitch.tv/kraken/channels/' + name + '?client_id=gs9eupsxrdv2tl9slbqjb4gvnye6jit&callback=?', function(generalData) {
+    $.getJSON('https://api.twitch.tv/kraken/streams/' + name + '?client_id=gs9eupsxrdv2tl9slbqjb4gvnye6jit&callback=?', function(streamData) {
 
-      var logo = 'http://digitalmarketingstrategy.ucd.ie/wp-content/uploads/2015/11/Ask-The-Right-Questions--300x300.jpg';
+      var logo = 'img/question.jpg';
       if (generalData.logo !== null) logo = generalData.logo;
-      if (generalData.logo === undefined) logo = 'http://rlv.zcache.co.uk/no_entry_sign_square_sticker-r7c34f57abc1e4e3782619f45a7e3410f_v9wf3_8byvr_324.jpg';
+      if (generalData.logo === undefined) logo = 'https://rlv.zcache.co.uk/no_entry_sign_square_sticker-r7c34f57abc1e4e3782619f45a7e3410f_v9wf3_8byvr_324.jpg';
 
       var linkUrl = "#";
       if (generalData.url !== null) linkUrl = generalData.url;
@@ -49,13 +49,13 @@ var next = function() {
   //i.e. all the async calls have been made and completed
   if (count < 1) {
     buildTable(results);
-    
+
     $("#btn-all").on("click", function() {
       $('#btn-all, #btn-online, #btn-offline').removeClass("is-active");
       $('#btn-all').addClass("is-active");
       buildTable(results);
     });
-    
+
     $("#btn-online").on("click", function() {
       $('#btn-all, #btn-online, #btn-offline').removeClass("is-active");
       $('#btn-online').addClass("is-active");
@@ -64,7 +64,7 @@ var next = function() {
       });
       buildTable(onlineRes);
     });
-    
+
     $("#btn-offline").on("click", function() {
       $('#btn-all, #btn-online, #btn-offline').removeClass("is-active");
       $('#btn-offline').addClass("is-active");
@@ -73,7 +73,7 @@ var next = function() {
       });
       buildTable(offlineRes);
     });
-    
+
     $('#search-btn').keyup(function() {
       $('#btn-all, #btn-online, #btn-offline').removeClass("is-active");
       var searchStr = this.value;
