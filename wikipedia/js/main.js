@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
     
     // carry out the search
-    var urlstring = "http://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=search&srsearch=" + searchTerm + "&utf8=&callback=?";
+    var urlstring = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=search&srsearch=" + searchTerm + "&utf8=&callback=?";
     $.getJSON(urlstring, function(data) {
       
       // the case of zero results
