@@ -2,6 +2,10 @@
   font-family: 'Alfa Slab One', cursive;
 } */
 
+body {
+  background: #F5F7FA;
+}
+
 .bluequad {
   width: 288px;
   height: 288px;
